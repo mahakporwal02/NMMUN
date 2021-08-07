@@ -1,4 +1,5 @@
 # nmmun
+Website for Narsee Monjee Model United Nations.
 
 ## Project setup
 ```
