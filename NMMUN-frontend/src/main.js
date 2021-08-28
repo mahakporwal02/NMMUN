@@ -1,9 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router';
 import App from './App.vue'
-import Login from './components/Login.vue';
 import Home from './components/Home.vue';
-import SignUp from './components/SignUp.vue';
 
 
 Vue.use(Router);
@@ -17,16 +15,16 @@ const routes = [
     component: Home,
     meta: { title: () => BASE_TITLE }
   },
-  {
-    path: '/login',
-    component: Login,
-    meta: { title: () => BASE_TITLE + 'Login'}
-  },
-  {
-    path: '/signup',
-    component: SignUp,
-    meta: { title: () => BASE_TITLE +'SignUp' }
-  },
+  // {
+  //   path: '/',
+  //   component: Login,
+  //   meta: { title: () => BASE_TITLE + 'Login'}
+  // },
+  // {
+  //   path: '/signup',
+  //   component: SignUp,
+  //   meta: { title: () => BASE_TITLE +'SignUp' }
+  // },
 ];
 
 const router = new Router({
