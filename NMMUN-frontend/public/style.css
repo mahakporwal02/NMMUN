@@ -1,65 +1,102 @@
-body {
+#app {
  
     position: relative;
     max-width: 100vw;
     min-height: 100vh;
     background: #646464;
-    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-        box-sizing: border-box;
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoothing: grayscale; */
+        /* box-sizing: border-box; */
         overflow-x: hidden;
+
 }
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+img {
+    max-width: 50%;
+    width: 70%;
 }
-.logo {
-    position: absolute;
-    left: 3vw;
-    height: 100px;
-    top: 3px;
-}
-.main-navbar {
+
+.main-nav{
     height: 30px;
-    width: auto;
-    position: absolute;
-    left: 25vw;
+    width: 100%;
     background-color: #171717;
-    top: 30px;
     border-radius: 20px;
 }
-.side-navbar {
-    height: 30px;
-    width: 13vw;
-    position: absolute;
-    left: 80vw;
-    background-color: #171717;
-    top: 30px;
-    border-radius: 20px;
-}
-
-.main-nav-ul{
-    list-style: none;
-}
-
-.main-nav-ul > li {
-    display: inline-block;
-    margin-left: 15px;
-    color: WHITE;
-    margin-top: 3px;
-    margin-right: 15px;
-}
-
-.main-nav-ul > li > a{
+.main-nav a{
     color: inherit;
     text-decoration: none;
 }
 
+.side-nav {
+    height: 30px;
+    background-color: #171717;
+    border-radius: 20px;
+    /* margin-top: 26px; */
+    /* margin-left: 15%; */
+}
 
+.side-nav > a {
+    text-decoration: none;
+    color: #DDB771;
+    display: inline-block;
+    /* margin-top: 2px;
+    margin-left: 15px; */
+}
+.nav-link{
+    font-weight: bold;
+}
+.display-small{
+    color: #dbaf5d;
+
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    /* .first {
+        margin-left: 7%;
+    } */
+}
+@media screen and (max-width:1200px){
+    .side-nav {
+        margin-left: 10%;
+        padding: 0 0 0 7px;
+        width: 400px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .display{
+        display: none;
+    }
+    .display-small {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .main-nav{
+        padding-left: 1.8rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .neg-margin {
+        margin-left: -10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1150px) {
+    .neg-margin{
+        margin-left: -12px;
+    }
+    .neg-mg-side-nav{
+        margin-left: -5px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .neg-margin{
+        margin-left: 13px;
+    }
+}
