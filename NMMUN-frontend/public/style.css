@@ -1,5 +1,4 @@
 #app {
- 
     position: relative;
     max-width: 100vw;
     min-height: 100vh;
@@ -7,13 +6,10 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
-    /* -webkit-font-smoothing: antialiased; */
-    /* -moz-osx-font-smoothing: grayscale; */
-        /* box-sizing: border-box; */
         overflow-x: hidden;
 
 }
-img {
+.logo {
     max-width: 50%;
     width: 70%;
 }
@@ -23,42 +19,54 @@ img {
     width: 100%;
     background-color: #171717;
     border-radius: 20px;
+    z-index: 1;
 }
 .main-nav a{
     color: inherit;
     text-decoration: none;
+    z-index: 100;
 }
 
 .side-nav {
     height: 30px;
     background-color: #171717;
     border-radius: 20px;
-    /* margin-top: 26px; */
-    /* margin-left: 15%; */
 }
 
 .side-nav > a {
     text-decoration: none;
     color: #DDB771;
     display: inline-block;
-    /* margin-top: 2px;
-    margin-left: 15px; */
 }
 .nav-link{
     font-weight: bold;
 }
 .display-small{
     color: #dbaf5d;
-
     display: none;
+    position: relative;
+    z-index: 10;
 }
 
-@media screen and (max-width: 1500px) {
-    /* .first {
-        margin-left: 7%;
-    } */
+.heading {
+    position: relative;
+    left: -15vw;
+    top: -150px;
+    width: 180%;
 }
-@media screen and (max-width:1200px){
+
+.side_heading {
+    position: relative;
+    left: 20vw;
+    width: 180%;
+}
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+    .heading {
+        top: -90px;
+    }
+}
+
+@media screen and (max-width:1200px) {
     .side-nav {
         margin-left: 10%;
         padding: 0 0 0 7px;
@@ -72,6 +80,18 @@ img {
     .display-small {
         display: block;
     }
+    .heading{
+        position: relative;
+        width: 120vw;
+        left: -15vw;
+        top: -55px;
+    }
+    .side_heading {
+        position: relative;
+        left: 10vw;
+        top: -60px;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1450px) {
@@ -83,6 +103,12 @@ img {
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
     .neg-margin {
         margin-left: -10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    .side_heading {
+        left: 22vw;
     }
 }
 
