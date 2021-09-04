@@ -1,14 +1,17 @@
 <template>
-  <div>
+  <div class="container-fluid">
     <NavBar></NavBar>
+    <About></About>
   </div>
 </template>
 <script>
 import NavBar from './NavBar'
+import About from './About'
 export default {
   name: 'Home',
   components : {
-    NavBar
+    NavBar,
+    About
   },
   methods: {
     onclick: function() {
