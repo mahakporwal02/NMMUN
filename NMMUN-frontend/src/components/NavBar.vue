@@ -121,52 +121,58 @@
       <div>
         <img class="main_photos display" src="../assets/main_photos.svg" />
       </div>
-      <div>
-        <img class="About_bg" src="../assets/About_bg.svg" />
-      </div>
-      <div>
-        <img class="about" src="../assets/About.svg" />
-      </div>
-      <div>
-        <img class="campus" src="../assets/campus.svg" />
-      </div>
-      <div class="about_us offset-lg-1 col-lg-10">
-        <p>
-          NMMUN '21 was adjudged as one of the premier MUN conferences held in
-          2019 by its attendees. Having the presence of international delegates
-          and participants from different MUNing circuits it stood out as an MUN
-          that has crossed all divides and valleys. In the upcoming edition, we
-          try bring to you a better and smoother session, laden with high octane
-          debates and fruitful discussions.
-        </p>
+      <div class="urel">
+        <div class="rel" style="">
+          <div>
+            <img class="about" src="../assets/About.svg" />
+          </div>
+          <div>
+            <img class="campus" src="../assets/campus.svg" />
+          </div>
+          <div class="about_us offset-lg-1 col-lg-10">
+            <p>
+              NMMUN '21 was adjudged as one of the premier MUN conferences held
+              in 2019 by its attendees. Having the presence of international
+              delegates and participants from different MUNing circuits it stood
+              out as an MUN that has crossed all divides and valleys. In the
+              upcoming edition, we try bring to you a better and smoother
+              session, laden with high octane debates and fruitful discussions.
+            </p>
 
-        <p>
-          The Narsee Monjee Model United Nations Conference is an event that is
-          organised annually in the Shirpur Campus of the SVKMs NMIMS Mukesh
-          Patel School of Technology Management and Engineering. The event is
-          organised by the students of this campus to provide the participants
-          with a view as to how the United Nations and the bodies associated
-          with it work.
-        </p>
+            <p>
+              The Narsee Monjee Model United Nations Conference is an event that
+              is organised annually in the Shirpur Campus of the SVKMs NMIMS
+              Mukesh Patel School of Technology Management and Engineering. The
+              event is organised by the students of this campus to provide the
+              participants with a view as to how the United Nations and the
+              bodies associated with it work.
+            </p>
 
-        <p>
-          This year’s edition of the event is essentially the amalgamation of
-          the ideas brought forward by the previous teams who have organised
-          this event. the current team leading the event. and the backbone of
-          the event- our college management. NMMUN has always had a reputation
-          for being solemn and sophisticated. Thus. a tremendous effort is made
-          to ensure that the participants get the feel of an actual council
-          wherein discussions are being conducted at the best level and with
-          proper respect and reverence for both the authorities and the nations
-          being represented.
-        </p>
+            <p>
+              This year’s edition of the event is essentially the amalgamation
+              of the ideas brought forward by the previous teams who have
+              organised this event. the current team leading the event. and the
+              backbone of the event- our college management. NMMUN has always
+              had a reputation for being solemn and sophisticated. Thus. a
+              tremendous effort is made to ensure that the participants get the
+              feel of an actual council wherein discussions are being conducted
+              at the best level and with proper respect and reverence for both
+              the authorities and the nations being represented.
+            </p>
 
-        <p>
-          TSo, as we ensure the very best efforts on our pat to give you the
-          realistic fed of the United Nations along with our partners and
-          sponsors. we hope that you will join us to partake of this grand event
-          in its twelfth edition. We hope to see you there
-        </p>
+            <p>
+              TSo, as we ensure the very best efforts on our pat to give you the
+              realistic fed of the United Nations along with our partners and
+              sponsors. we hope that you will join us to partake of this grand
+              event in its twelfth edition. We hope to see you there
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="urel2" >
+        <div class="rel2">
+          <h1>SECRETERAIAT</h1>
+        </div>
       </div>
     </div>
   </div>

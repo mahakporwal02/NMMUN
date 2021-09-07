@@ -72,18 +72,48 @@
 }
 .about {
   position: relative;
-  top: -1050px;
-  left: 55vw;
+  top: 120px;
+  width: 25vw;
+  left: 60vw;
+}
+.urel {
+  position: relative;
+  background-color: #DDB771;
+  border-radius: 50px 50px 0 0;
+  top: -150px;
+}
+.rel {
+  position: relative;
+  width: 100%;
+  background-color: #171717;
+  top: 30px;
+  border-radius: 50px 50px 0 0;
+  height: 1000px;
+}
+.urel2 {
+  position: relative;
+  background-color: #DDB771;
+  border-radius: 50px 50px 0 0;
+  top: -250px;
+}
+.rel2 {
+  position: relative;
+  width: 100vw;
+  background-color: #707070;
+  top: 30px;
+  border-radius: 50px 50px 0 0;
+  height: 1000px;
 }
 .campus {
   position: relative;
-  top: -1050px;
-  width: 25vw;
-  left: -30vw;
+  top: -90px;
+  width: 30vw;
+  left: 10vw;
+  z-index: 16;
 }
 .about_us {
   position: relative;
-  top: -950px;
+  top: 0px;
   color: beige;
   text-align: center;
 }
