@@ -164,14 +164,43 @@
               TSo, as we ensure the very best efforts on our pat to give you the
               realistic fed of the United Nations along with our partners and
               sponsors. we hope that you will join us to partake of this grand
-              event in its twelfth edition. We hope to see you there
+              event in its twelfth edition. We hope to see you there.
             </p>
           </div>
         </div>
       </div>
-      <div class="urel2" >
+      <div class="urel2">
         <div class="rel2">
-          <h1>SECRETERAIAT</h1>
+          <img class="sec" src="../assets/SECRETARIAT.svg" />
+          <div class="sec_grid">
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="grid-column-start:2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="sec_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="urel">
+        <div class="rel">
+          <img class="sec" src="../assets/DIRECTORATE.svg" />
+          <!-- <div class="dir_grid">
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+          </div> -->
         </div>
       </div>
     </div>
