@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router';
 import App from './App.vue'
 import Home from './components/Home.vue';
+import Register from './components/Register.vue';
+
 
 
 Vue.use(Router);
@@ -13,6 +15,11 @@ const routes = [
   {
     path: '/',
     component: Home,
+    meta: { title: () => BASE_TITLE }
+  },
+  {
+    path: '/register',
+    component: Register,
     meta: { title: () => BASE_TITLE }
   },
   // {

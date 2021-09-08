@@ -104,6 +104,21 @@
   border-radius: 30px 30px 0 0;
   height: 1200px;
 }
+.urel3 {
+  position: relative;
+  background-color: #DDB771;
+  border-radius: 30px 30px 0 0;
+  top: -200px;
+  width: 100%;
+}
+.rel3 {
+  position: relative;
+  width: 100%;
+  background-color: #171717;
+  top: 30px;
+  border-radius: 30px 30px 0 0;
+  height: 1000px;
+}
 .campus {
   position: relative;
   top: -90px;
@@ -124,6 +139,7 @@
   top: 50px;
 }
 .sec_grid {
+  left: calc((100% - 960px)/2);
   position: relative;
   display: grid;
   grid-template-columns: 160px 160px 160px 160px 160px ;
@@ -131,7 +147,6 @@
   top: 100px;
   grid-column-gap: 40px;
   grid-row-gap: 10px;
-  margin: 0 10vw;
 }
 .sec_ele {
   width: 90%;
@@ -145,22 +160,22 @@
 .dir {
   position: relative;
   width: 50vw;
-  left: 10vw;
+  left: 40vw;
   top: 50px;
 }
 .dir_grid {
+  left: calc((100% - 1060px)/2);
   position: relative;
   display: grid;
-  grid-template-columns: 160px 160px 160px 160px 160px ;
-  grid-template-rows: 210px 210px 210px;
+  grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ;
+  grid-template-rows:  200px 200px;
   top: 100px;
   grid-column-gap: 40px;
-  grid-row-gap: 10px;
-  margin: 0 10vw;
+  grid-row-gap: 30px;
 }
 .dir_ele {
-  width: 90%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   border: 5px solid #DDB771;
   box-shadow:  10px 12px 40px #353434, -10px 12px 40px #494948;
@@ -174,22 +189,26 @@
     left: 10vw;
   }
   .sec_grid {
+    left: calc((100% - 1160px)/2);
     position: relative;
-    margin: 0 10vw;
     grid-template-columns: 200px 200px 200px 200px 200px;
     grid-template-rows: 300px 300px 300px;
   }
 }
-@media screen and (min-width: 1700px) and (max-width: 2000px) {
-  .sec_grid {
-    margin: 0 18vw;;
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .dir_grid {
+    left: calc((100% - 1060px)/2);
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows:  150px 150px;
+    top: 100px;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  .sec_grid {
-    margin: 0 3vw;;
-  }
-}
+
 @media screen and (min-width: 992px) and (max-width: 1350px) {
   .about {
     top: 60px;

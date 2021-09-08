@@ -11,7 +11,7 @@
               <a
                 class="ml-4"
                 style="color: #DDB771; text-decoration: none;"
-                href="#"
+                href="#about"
                 >ABOUT</a
               >
             </div>
@@ -19,7 +19,7 @@
               <a
                 class="ml-2"
                 style="color: #DDB771; text-decoration: none;"
-                href="#/sec"
+                href="#sec"
                 >SECRETARIAT</a
               >
             </div>
@@ -27,7 +27,7 @@
               <a
                 class="ml-4 pl-2"
                 style="color: #DDB771; text-decoration: none;"
-                href="#/committees"
+                href="#committees"
                 >COMMITTEES</a
               >
             </div>
@@ -35,7 +35,7 @@
               <a
                 class="ml-2 p-lg-2"
                 style="color: #DDB771; text-decoration: none;"
-                href="#/gallery"
+                href="#gallery"
                 >GALLERY</a
               >
             </div>
@@ -56,7 +56,7 @@
           <a
             class="neg-mg-side-nav"
             style="color: #DDB771; text-decoration: none;"
-            href="#/register"
+            href="/register"
             >REGISTER</a
           >
         </div>
@@ -103,7 +103,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link " style="color: #dbaf5d;" href="#/register"
+              <a class="nav-link " style="color: #dbaf5d;" href="/register"
                 >REGISTER</a
               >
             </li>
@@ -121,8 +121,8 @@
       <div>
         <img class="main_photos display" src="../assets/main_photos.svg" />
       </div>
-      <div class="urel">
-        <div class="rel" style="">
+      <div class="urel" id="about">
+        <div class="rel">
           <div>
             <img class="about" src="../assets/About.svg" />
           </div>
@@ -169,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div class="urel2">
+      <div class="urel2" id="sec">
         <div class="rel2">
           <img class="sec" src="../assets/SECRETARIAT.svg" />
           <div class="sec_grid">
@@ -189,18 +189,18 @@
           </div>
         </div>
       </div>
-      <div class="urel">
-        <div class="rel">
-          <img class="sec" src="../assets/DIRECTORATE.svg" />
-          <!-- <div class="dir_grid">
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-            <div class="dir_ele" style="background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
-          </div> -->
+      <div class="urel3" id="dir">
+        <div class="rel3">
+          <img class="dir" src="../assets/DIRECTORATE.svg" />
+          <div class="dir_grid">
+            <div class="dir_ele" style=" grid-column:2 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style=" grid-column:4 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style=" grid-column:6 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style=" grid-column:8 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style=" grid-column:3 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style=" grid-column:5 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+            <div class="dir_ele" style=" grid-column:7 / span 2; background: url(mahak.jpg); background-position: center top; background-size:  cover;"></div>
+          </div>
         </div>
       </div>
     </div>
